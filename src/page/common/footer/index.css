@@ -1,0 +1,23 @@
+/*
+* @Author: liuzhaoxu1996
+* @Date:   2018-04-06 11:37:20
+* @Last Modified by:   liuzhaoxu1996
+* @Last Modified time: 2018-04-06 15:01:31
+*/
+.footer{
+    margin-top: 20px;
+    padding-bottom: 10px;
+}
+.footer .links{
+    text-align: center;
+    color: #666;
+    line-height: 30px;
+}
+.footer .links .link{
+    padding: 0 10px;
+}
+.footer .copyright{
+    text-align: center;
+    color: #666;
+    line-height: 30px;
+}

@@ -1,10 +1,15 @@
 /*
 * @Author: liuzhaoxu1996
 * @Date:   2018-04-02 23:42:52
-* @Last Modified by:   liuzhaoxu1996
-* @Last Modified time: 2018-04-03 12:50:13
+ * @Last Modified by: lius
+ * @Last Modified time: 2018-04-06 17:19:41
 */
- 'use strict';
- console.log('hello index'); 
- require('../module.js');
- require('./index.css');
+'use strict';
+require('page/common/nav/index.js');
+require('page/common/header/index.js');
+var navSide = require('page/common/nav-side/index.js');
+var _mm = require('util/mm.js');
+
+navSide.init({
+  name: 'order-list'
+});
